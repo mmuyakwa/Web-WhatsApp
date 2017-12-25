@@ -1,0 +1,29 @@
+.header {
+    background-color: #ece5dd;
+    height: 5em;
+    color: black;
+
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.h_text {
+    padding: .5em;
+}
+
+.logo {
+    float: left;
+}
+
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: small;
+}
+
+.t1 {
+    font-weight: bold;
+}

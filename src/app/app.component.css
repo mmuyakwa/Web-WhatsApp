@@ -1,0 +1,6 @@
+main {
+    flex: 1 0 auto;
+    /* background-image: url("../img/chat-panel-bg.png"); */
+    color: black;
+    margin-top: 5em; /* Add a top margin to avoid content overlay */
+}

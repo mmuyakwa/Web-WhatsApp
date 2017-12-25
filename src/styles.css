@@ -1,1 +1,114 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url("./assets/img/chat-panel-bg.png");
+    background-attachment: fixed;
+}
+
+.material-icons {
+    color: darkgray;
+}
+
+.logo-img,
+.h_text,
+.icon,
+.inp {
+    float: left;
+}
+/*
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: small;
+}
+
+.t1 {
+    font-weight: bold;
+}
+
+main {
+    flex: 1 0 auto;
+    color: black;
+    margin-top: 5em; 
+}
+
+.ma {
+    color: orangered;
+    font-weight: bold;
+}
+
+.an {
+    color: #df0f8f;
+    font-weight: bold;
+}
+
+.he {
+    color: blue;
+    font-weight: bold;
+}
+
+.mi {
+    color: green;
+    font-weight: bold;
+}
+
+.emo1 {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+.emo_m {
+    width: 25px;
+    vertical-align: middle;
+}
+
+footer {
+    padding: .5em;
+    height: 5em;
+    background-color: #ece5dd;
+    color: blue;
+
+    overflow: hidden;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+}
+
+.bottomleft {
+    bottom: 8px;
+    left: 16px;
+    float: left;
+    color: blue;
+}
+
+.bottomright {
+    position: relative;
+    bottom: 8px;
+    right: 16px;
+    color: blue;
+    float: right;
+}
+
+.tb {
+    padding: .5em;
+    margin: 1.5em;
+    width: 300px;
+    -webkit-border-radius: 20px 20px 20px 0px;
+    -moz-border-radius: 20px 20px 20px 0px;
+    border-radius: 20px 20px 20px 0px;
+    background: rgba(236, 229, 221, 0.4);
+    background-color: white;
+    -webkit-box-shadow: gray 1px 1px 1px;
+    -moz-box-shadow: gray 1px 1px 1px;
+    box-shadow: gray 1px 1px 1px;
+}
+
+.schmutz {
+    width: 260px;
+    border-radius: 5px;
+}
+
+*/

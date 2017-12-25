@@ -1,0 +1,15 @@
+<header class="header">
+  <div class="topleft">
+    <div class="logo">
+      <!-- <img src="../../img/grp_logo.jpg" alt="Logo" class="logo-img responsive-img circle" width="60px"> -->
+      <img src="./assets/img/grp_logo.jpg" alt="Logo" class="logo-img responsive-img circle" width="60px">
+      <div class="h_text">
+        <div class="t1">{{ group }}</div>
+        <!-- <div class="t2">Annette, Manu, Marco, Michael (Gott)</div> -->
+        <div class="t2">
+          <span *ngFor="let member of groupmembers">{{member}}, </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
