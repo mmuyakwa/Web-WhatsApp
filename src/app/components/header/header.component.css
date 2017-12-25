@@ -9,20 +9,23 @@
     width: 100%; /* Full width */
 }
 
-.h_text {
-    padding: .5em;
-}
-
-.logo {
-    float: left;
-}
-
 .topleft {
     position: absolute;
     top: 8px;
     left: 16px;
     font-size: small;
 }
+
+.logo {
+    float: left;
+}
+
+.h_text {
+    padding: .5em;
+}
+
+
+
 
 .t1 {
     font-weight: bold;
